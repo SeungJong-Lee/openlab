@@ -9,5 +9,9 @@ void foo(void)
 void goo(void)
 {
  printf("Hello foo\n");
+
+void koo(int num)
+{
+ printf("%d: Hello koo\n", num);
 }
 
